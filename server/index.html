@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Texto en el centro de la pantalla</title>
+    <style>
+      #texto {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: red;
+      }
+    </style>
+
+<title>Botón para mostrar un número gigante</title>
+<style>
+  #numero {
+    font-size: 200px;
+    font-weight: bold;
+    color: blue;
+    display: none;
+    text-align: center;
+    margin-top: 100px;
+  }
+</style>
+</head>
+
+<body>
+</div class="container">
+    <div class="cuatro">I</div>
+    <div class="cuatro2">I</div>
+    <div class="cuatro">I</div>
+    <div class="cuatro2">v</div>
+</div>
+<button onclick="mostrarTexto()">Dale yo se que vos queres</button>
+  <div id="texto">VISTE, NO HAGO NADA TAMPOCO</div>
+  <script>
+    function mostrarTexto() {
+      var texto = document.getElementById("texto");
+      texto.style.display = "block";
+    }
+  </script>
+</div>
+</div class="container2">
+<div class="cuatro1">cuatro</div>
+<div class="cuatro2">cuatro2</div>
+<div class="cuatro1">cuatro</div>
+<div class="cuatro2">cuatro2</div>
+</div>
+<button onclick="mostrarTexto()">CAPO A MI DALE</button>
+  <div id="texto">VISTE, NO HAGO NADA</div>
+  <script>
+    function mostrarTexto() {
+      var texto = document.getElementById("texto");
+      texto.style.display = "block";
+    }
+  </script>
+  <button onclick="mostrarNumero()">Mostrar Número</button>
+  <div id="numero">4</div>
+  <script>
+    function mostrarNumero() {
+      var numeroDiv = document.getElementById("numero");
+      numeroDiv.style.display = "block";
+    }
+  </script>
+</body>
+</html>

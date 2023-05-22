@@ -1,0 +1,57 @@
+.container{
+display: flex;
+background-color: blue;
+width: 100px;
+height: 160px;
+display: grid;
+
+}
+
+.cuatro{
+display: flex;
+background-color: brown;
+width: 30px;
+height: 49px;
+justify-content: center;
+
+
+}
+
+.cuatro2{
+display: flex;
+background-color: blueviolet;
+width: 10px;
+height: 15px;
+justify-content: center;
+
+
+}
+
+.container2{
+    display: flex;
+    background-color: blue;
+    width: 100px;
+    height: 160px;
+    display: grid;
+    
+    }
+    
+    .cuatro1{
+    display: flex;
+    background-color: brown;
+    width: 20px;
+    height: 49px;
+    justify-content: center;
+    
+    
+    }
+    
+    .cuatro2{
+    display: flex;
+    background-color: blueviolet;
+    width: 80px;
+    height: 25%;
+    justify-content: center;
+    
+    
+    }
